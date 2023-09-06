@@ -50,7 +50,7 @@ const PostWritePage = () => {
 				<Button
 					title="글 작성하기"
 					onClick={() => {
-						navigate('/');
+						navigate('/mini_blog');
 					}}
 				/>
 			</Container>

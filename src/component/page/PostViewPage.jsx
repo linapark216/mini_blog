@@ -66,7 +66,7 @@ const PostViewPage = () => {
 				<Button
 					title="뒤로가기"
 					onClick={() => {
-						navigate('/');
+						navigate('/mini_blog');
 					}}
 				/>
 				<PostContainer>
@@ -87,7 +87,7 @@ const PostViewPage = () => {
 				<Button
 					title="댓글 작성하기"
 					onClick={() => {
-						navigate('/');
+						navigate('/mini_blog');
 					}}
 				/>
 			</Container>

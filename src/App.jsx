@@ -15,7 +15,7 @@ const App = () => {
 		<BrowserRouter>
 			<MainTitleText>Lina의 미니 블로그</MainTitleText>
 			<Routes>
-				<Route path={`/`} element={<MainPage />} />
+				<Route path={`/mini_blog`} element={<MainPage />} />
 				<Route path="post-write" element={<PostWritePage />} />
 				<Route path="post/:postId" element={<PostViewPage />} />
 			</Routes>
